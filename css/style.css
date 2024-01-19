@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: #EEE7DA;
+    background-color: #fffffe;
     font-size: 15px;
 }
 
@@ -27,7 +27,7 @@ header span {
     border: 1px solid #ddd;
     border-radius: 5px;
     overflow: hidden;
-    box-shadow: 0 4px 8pc rgba(0, 0, 0.1);
+    box-shadow: 0 4px 2pc rgba(157, 102, 102, 0.537);
     padding: 65px;
     background-color: #fff;
 }
@@ -35,11 +35,9 @@ header span {
 .content-header {
     text-align: center;
     margin-bottom: 2px;
+    text-decoration: none;
 }
 
-span {
-    color: aqua;
-}
 
 .content-body {
     display: flex;
@@ -118,6 +116,6 @@ button:active {
 footer {
     text-align: center;
     padding: 10px;
-    background: linear-gradient(to right, #1badda97, #ff8800a7);
-    color: #fff;
+    background: linear-gradient(to right, #1badda68, #ff880076);
+    color: #030303;
 }
